@@ -1,24 +1,63 @@
-# Tags: latest, 6.0.3-debian-10-r22, 6.0.3, 6.0-debian-10, 6.0
+# Tags: latest, 6.0.3-debian-10-r26, 6.0.3, 6.0-debian-10, 6.0
 FROM bitnami/aspnet-core:latest
-FROM bitnami/aspnet-core:6.0.3-debian-10-r22
+FROM bitnami/aspnet-core:6.0.3-debian-10-r26
 FROM bitnami/aspnet-core:6.0.3
 FROM bitnami/aspnet-core:6.0-debian-10
 FROM bitnami/aspnet-core:6.0
 
+# Tags: 5.0.15-debian-10-r27, 5.0.15, 5-debian-10, 5
+FROM bitnami/aspnet-core:5.0.15-debian-10-r27
+FROM bitnami/aspnet-core:5.0.15
+FROM bitnami/aspnet-core:5-debian-10
+FROM bitnami/aspnet-core:5
+
 # Tags: _
 FROM bitnami/aspnet-core:_
 
-# Tags: 3.1.23-debian-10-r22, 3.1.23, 3.1-debian-10, 3.1
-FROM bitnami/aspnet-core:3.1.23-debian-10-r22
+# Tags: 3.1.23-debian-10-r26, 3.1.23, 3.1-debian-10, 3.1
+FROM bitnami/aspnet-core:3.1.23-debian-10-r26
 FROM bitnami/aspnet-core:3.1.23
 FROM bitnami/aspnet-core:3.1-debian-10
 FROM bitnami/aspnet-core:3.1
 
-# Tags: 5.0.15-debian-10-r22, 5.0.15, 5-debian-10, 5
+# Tags: 5.0.15-debian-10-r26
+FROM bitnami/aspnet-core:5.0.15-debian-10-r26
+
+# Tags: 6.0.3-debian-10-r25
+FROM bitnami/aspnet-core:6.0.3-debian-10-r25
+
+# Tags: 3.1.23-debian-10-r25
+FROM bitnami/aspnet-core:3.1.23-debian-10-r25
+
+# Tags: 5.0.15-debian-10-r25
+FROM bitnami/aspnet-core:5.0.15-debian-10-r25
+
+# Tags: 6.0.3-debian-10-r24
+FROM bitnami/aspnet-core:6.0.3-debian-10-r24
+
+# Tags: 3.1.23-debian-10-r24
+FROM bitnami/aspnet-core:3.1.23-debian-10-r24
+
+# Tags: 5.0.15-debian-10-r24
+FROM bitnami/aspnet-core:5.0.15-debian-10-r24
+
+# Tags: 6.0.3-debian-10-r23
+FROM bitnami/aspnet-core:6.0.3-debian-10-r23
+
+# Tags: 3.1.23-debian-10-r23
+FROM bitnami/aspnet-core:3.1.23-debian-10-r23
+
+# Tags: 5.0.15-debian-10-r23
+FROM bitnami/aspnet-core:5.0.15-debian-10-r23
+
+# Tags: 6.0.3-debian-10-r22
+FROM bitnami/aspnet-core:6.0.3-debian-10-r22
+
+# Tags: 3.1.23-debian-10-r22
+FROM bitnami/aspnet-core:3.1.23-debian-10-r22
+
+# Tags: 5.0.15-debian-10-r22
 FROM bitnami/aspnet-core:5.0.15-debian-10-r22
-FROM bitnami/aspnet-core:5.0.15
-FROM bitnami/aspnet-core:5-debian-10
-FROM bitnami/aspnet-core:5
 
 # Tags: 6.0.3-debian-10-r21
 FROM bitnami/aspnet-core:6.0.3-debian-10-r21
@@ -247,45 +286,3 @@ FROM bitnami/aspnet-core:3.1.22-debian-10-r78
 
 # Tags: 5.0.14-debian-10-r23
 FROM bitnami/aspnet-core:5.0.14-debian-10-r23
-
-# Tags: 6.0.2-debian-10-r22
-FROM bitnami/aspnet-core:6.0.2-debian-10-r22
-
-# Tags: 3.1.22-debian-10-r77
-FROM bitnami/aspnet-core:3.1.22-debian-10-r77
-
-# Tags: 5.0.14-debian-10-r22
-FROM bitnami/aspnet-core:5.0.14-debian-10-r22
-
-# Tags: 6.0.2-debian-10-r21
-FROM bitnami/aspnet-core:6.0.2-debian-10-r21
-
-# Tags: 3.1.22-debian-10-r76
-FROM bitnami/aspnet-core:3.1.22-debian-10-r76
-
-# Tags: 5.0.14-debian-10-r21
-FROM bitnami/aspnet-core:5.0.14-debian-10-r21
-
-# Tags: 6.0.2-debian-10-r20
-FROM bitnami/aspnet-core:6.0.2-debian-10-r20
-
-# Tags: 3.1.22-debian-10-r75
-FROM bitnami/aspnet-core:3.1.22-debian-10-r75
-
-# Tags: 5.0.14-debian-10-r20
-FROM bitnami/aspnet-core:5.0.14-debian-10-r20
-
-# Tags: 6.0.2-debian-10-r19
-FROM bitnami/aspnet-core:6.0.2-debian-10-r19
-
-# Tags: 3.1.22-debian-10-r74
-FROM bitnami/aspnet-core:3.1.22-debian-10-r74
-
-# Tags: 5.0.14-debian-10-r19
-FROM bitnami/aspnet-core:5.0.14-debian-10-r19
-
-# Tags: 6.0.2-debian-10-r18
-FROM bitnami/aspnet-core:6.0.2-debian-10-r18
-
-# Tags: 3.1.22-debian-10-r73
-FROM bitnami/aspnet-core:3.1.22-debian-10-r73
